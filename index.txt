@@ -1,0 +1,72 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahalakshmi Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>KOMMI MAHALAKSHMI</h1>
+        <p>Computer Science Student | Aspiring Software Developer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="#contact" class="cta-button">Get in Touch</a>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate Computer Science student at PBR VISVODAYA INSTITUTE OF TECHNOLOGY AND SCIENCE, focusing on software development and machine learning. I enjoy tackling complex problems and creating innovative solutions.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <p>A web application for Tribute Page using HTML and CSS.</p>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>A web application for Image Gallery using HTML, CSS and JavaScript.</p>
+        </div>
+        <div class="project">
+            <h3>Project Three</h3>
+            <p>A web application for Music Gallery using HTML, CSS and JavaScript.</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: C, Python, Java</li>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+            <p id="formMessage"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; KOMMI MAHALAKSHMI</p>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/https://kommi-mahalakshmi-a992b6303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            <a href="https://github.com/https://Mahalakshmi1545" target="_blank">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
